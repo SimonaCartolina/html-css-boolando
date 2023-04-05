@@ -3,3 +3,30 @@
     padding:0;
     box-sizing:border-box;
 }
+.container{
+    background-color: #FF6900;
+    width:100vw;
+    color:white;
+    height: 8vh;
+    position:fixed;
+}
+.flex{
+    display:flex;
+    flex-direction:row;
+}
+.justifycontent{
+    justify-content:space-around;
+    text-align:center;
+    vertical-align: middle;
+    padding-top:2vh;
+}
+#logo,
+.icona{
+    height: 30px;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding-right:0.8rem;
+}
