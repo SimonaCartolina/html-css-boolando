@@ -3,6 +3,11 @@
     padding:0;
     box-sizing:border-box;
 }
+main{
+    margin:0 auto;
+    text-align:center;
+    padding:100px 215px;
+}
 .container{
     background-color: #FF6900;
     width:100vw;
@@ -30,3 +35,31 @@ ul{
 li{
     padding-right:0.8rem;
 }
+.prodotto{
+    height:500px;
+    justify-content: center;
+}
+.column{
+    width:calc(100% / 3);
+    background-color: aquamarine;
+    justify-content:center;
+    text-align: center;
+}
+.heart{
+    background-color: white;
+    width:20px;
+}
+.discount{
+    background-color: red;
+    width:50px;
+    padding:5px;
+    color:white;
+}
+.sostenibilità{
+    background-color: green;
+    width:100px;
+    padding:5px;
+    color:white;
+
+}
+
