@@ -50,16 +50,25 @@ li{
     background-size:cover;
     margin-right:15px;
     position:relative;
+    height:500px;
 }
 .prima{
-    background-image:url(img/1.webp);
-    height:500px;
+    background-image:url(img/1.webp);   
 }
 .seconda{
     background-image:url(img/2.webp);
 }
 .terza{
     background-image:url(img/3.webp);
+}
+.quarta{
+    background-image: url(img/4.webp);
+}
+.quinta{
+    background-image: url(img/5.webp);
+}
+.sesta{
+    background-image: url(img/6.webp);
 }
 .heart{
     background-color: white;
@@ -125,6 +134,24 @@ h2{
 }
 .column:hover .heart{
     color:red;
+}
+.prima:hover{
+    background-image: url(img/1b.webp);
+}
+.seconda:hover{
+    background-image: url(img/2b.webp);
+}
+.terza:hover{
+    background-image: url(img/3b.webp);
+}
+.quarta:hover{
+    background-image: url(img/4b.webp);
+}
+.quinta:hover{
+    background-image: url(img/5b.webp);
+}
+.sesta:hover{
+    background-image: url(img/6b.webp);
 }
 
 
