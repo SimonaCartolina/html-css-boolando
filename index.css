@@ -5,7 +5,7 @@
 }
 main{
     margin:0 auto;
-    padding:100px 215px;
+    padding:100px 200px;
 }
 .container{
     background-color: #FF6900;
@@ -13,6 +13,7 @@ main{
     color:white;
     height: 8vh;
     position:fixed;
+    z-index: 1;
 }
 .flex{
     display:flex;
@@ -43,7 +44,7 @@ li{
     justify-content:center;
     text-align: center;
     background-size:cover;
-    margin-right:5px;
+    margin-right:15px;
     position:relative;
 }
 .prima{
@@ -85,11 +86,15 @@ li{
 }
 .dettagli{
     width:calc(100% / 3);
-    margin-right:5px;
+    margin-right:10px;
     position:relative;
+    margin-bottom:50px;
 }
-.brand{
+.grigio{
     color:gray;
+}
+.tagliato{
+    text-decoration: line-through;
 }
 h1{
     font-size:20px;
