@@ -153,5 +153,12 @@ h2{
 .sesta:hover{
     background-image: url(img/6b.webp);
 }
-
-
+.sostenibilitàdue{
+    background-color: green;
+    width:100px;
+    padding:5px;
+    color:white;
+    position:absolute;
+    left:0px;
+    bottom:40px;
+}
